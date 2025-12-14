@@ -1,0 +1,32 @@
+/* overlay fade */
+.sidebar-enter-from,
+.sidebar-leave-to {
+  opacity: 0;
+}
+
+.sidebar-enter-active,
+.sidebar-leave-active {
+  transition: opacity 200ms ease;
+}
+
+/* sidebar slide */
+.sidebar-enter-from aside {
+  transform: translateX(-100%);
+}
+
+.sidebar-enter-to aside {
+  transform: translateX(0);
+}
+
+.sidebar-enter-active aside {
+  transition: transform 300ms ease;
+  transition-delay: 120ms;
+}
+
+.sidebar-leave-active aside {
+  transition: transform 200ms ease;
+}
+
+.sidebar-leave-to aside {
+  transform: translateX(-100%);
+}
