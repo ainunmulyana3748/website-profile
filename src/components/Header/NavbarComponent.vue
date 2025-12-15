@@ -1,7 +1,7 @@
 <template>
   <header
     :class="[
-      `navbar fixed top-0 z-50 px-15`,
+      `navbar fixed top-0 z-50 px-6 lg:px-15`,
       isScrolled ? 'backdrop-blur-md' : 'bg-base-100',
     ]"
   >

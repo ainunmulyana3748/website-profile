@@ -9,7 +9,7 @@ import FooterComponent from "./components/FooterComponent.vue";
 
 <template>
   <AppLayout>
-    <div class="px-15">
+    <div class="px-6 lg:px-15">
       <HeroComponent />
       <ExperienceComponent />
       <PortofolioComponent />
