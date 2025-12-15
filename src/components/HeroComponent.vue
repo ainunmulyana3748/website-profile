@@ -1,5 +1,5 @@
 <script setup>
-import profileImg from "../assets/img/profile.png";
+import profileImg from "../assets/img/Profile.png";
 
 const techs = [
   "React",
